@@ -14,7 +14,7 @@ public class Stack {
 
     public void push(char x) {
         if (isFull()) {
-            System.out.println("Assignment_3.Stack overflow");
+            System.out.println("Stack overflow");
             return;
         }
         top++;
@@ -23,7 +23,7 @@ public class Stack {
 
     public char pop() {
         if (isEmpty()) {
-            System.out.println("Assignment_3.Stack underflow");
+            System.out.println("Stack underflow");
             return 0;
         }
         System.out.println("Popping " + arr[top] + " from top of stack");
@@ -40,7 +40,7 @@ public class Stack {
             for (int i = top; i >= 0; i--) {
                 System.out.print(arr[i] + "\n");
             }
-        } else System.out.println("Assignment_3.Stack underflow");
+        } else System.out.println("Stack underflow");
     }
 
     public boolean isEmpty() {

@@ -4,7 +4,7 @@ package Assignment_2;
 public class FindMissing_Q3 {
     public static void main(String[] args) {
 
-        int[] sortedArr = {1, 2, 3 , 5, 6, 7, 8, 9};
+        int[] sortedArr = {2, 3, 4, 5, 6, 7, 8, 9};
         int size = sortedArr.length;
         System.out.println("Array: ");
         for (int i : sortedArr) System.out.print(i + ", ");

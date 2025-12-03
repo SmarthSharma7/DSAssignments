@@ -39,13 +39,13 @@ public class StackMenu_Q1 {
                     break;
                 case 5:
                     boolean isEmpty = s.isEmpty();
-                    if(isEmpty) System.out.println("Assignment_3.Stack is empty");
-                    else System.out.println("Assignment_3.Stack is not empty");
+                    if(isEmpty) System.out.println("Stack is empty");
+                    else System.out.println("Stack is not empty");
                     break;
                 case 6:
                     boolean isFull = s.isFull();
-                    if(isFull) System.out.println("Assignment_3.Stack is full");
-                    else System.out.println("Assignment_3.Stack is not full");
+                    if(isFull) System.out.println("Stack is full");
+                    else System.out.println("Stack is not full");
                     break;
                 case 7:
                     System.exit(0);
